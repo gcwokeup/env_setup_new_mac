@@ -30,5 +30,7 @@
     #zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
     ```
   - reload your `.zshrc` settings
-    ```source ~/.zshrc```
+    ```
+    source ~/.zshrc
+    ```
     

@@ -10,3 +10,4 @@ brew install postgresql
 brew reinstall openssl@1.1
 brew install nvm
 nvm install --lts
+brew services start postgresql

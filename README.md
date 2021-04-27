@@ -20,7 +20,7 @@
   - ```nvm install --lts```
 
 ## ZSH Case Insensitive Auto-complete
-- edit `~/.zshrc ` and add the following lines:
+  - edit `~/.zshrc ` and add the following lines:
     ```
     ## case-insensitive (uppercase from lowercase) completion
     zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
@@ -29,3 +29,6 @@
     ## case-insensitive,partial-word and then substring completion
     #zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
     ```
+  - reload your `.zshrc` settings
+    ```source ~/.zshrc```
+    

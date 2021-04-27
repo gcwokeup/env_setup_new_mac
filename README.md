@@ -17,7 +17,7 @@
   - ```brew install nvm```
 
 ## Install Latest Node
-```nvm install --lts```
+  - ```nvm install --lts```
 
 ## ZSH Case Insensitive Auto-complete
 - edit `~/.zshrc ` and add the following lines:
